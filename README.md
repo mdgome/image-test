@@ -9,7 +9,8 @@ source .venv/bin/activate
 python3 -m pip install -U pip
 python3 -m pip install boto3
 python3 -m pip install image
-python3 -m pip install numpy
+python3 -m pip install tqdm
+python3 -m pip install pathlib
 ```
 
 # S3 연결을 위한 설정 
