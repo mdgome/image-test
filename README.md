@@ -11,6 +11,8 @@ python3 -m pip install boto3
 python3 -m pip install image
 python3 -m pip install tqdm
 python3 -m pip install pathlib
+python3 -m pip install split-folder
+python3 -m pip install numpy
 ```
 
 # S3 연결을 위한 설정 
@@ -24,4 +26,9 @@ S3_PREFIX={접근할 파일 디렉토리 경로}
 AWS_ACCESS_KEY_ID={Access key}}
 AWS_SECRET_ACCESS_KEY={Secret access key}
 EOF
+```
+
+# run command
+```bash
+python3 -m process
 ```
